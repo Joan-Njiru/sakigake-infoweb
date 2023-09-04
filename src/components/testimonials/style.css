@@ -1,0 +1,104 @@
+.testimonials{
+  margin: 7em 0;
+
+}
+ .textimonial-h1{
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+ }
+ .textimonial-h1::after{
+  content: '';
+  background: #008CBF;
+  display: block;
+  height: .25em;
+  width: 8em;
+  margin: 15px auto 8px;
+  border-radius: 2px;
+ }
+ .wrapper {
+  margin: 5em;
+  background-color: #ffffff;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.testimonial-container {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  padding: 1.8em 1.2em;
+}
+
+.wrapper button {
+  font-size: 1.5em;
+  height: 2.28em;
+  width: 2.3em;
+  background-color: #ffffff;
+  position: absolute;
+  margin: auto;
+  border: 3px solid #008CBF;
+  color: #000;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.wrapper button:hover{
+  border: 3px solid #777;
+}
+
+
+button#next {
+  right: 2em;
+  padding-top: .3em;
+  padding-right: .16em;
+}
+
+button#prev {
+  left: 2em;
+  padding-top: .3em;
+  padding-left: .16em;
+}
+
+.testimonial-container p{
+  color: #8c8c90;
+  text-align: center;
+  font-size: .95em;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+  font-family: Jost;
+  /* text-align: justify; */
+}
+.testimonial-container img {
+  display: block;
+  margin: 1.8em auto 1.25em auto;
+  border-radius: 50%;
+  width: 6em;
+}
+
+.testimonial-container h3 {
+  color: #202020;
+  font-size: 1.4em;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  margin-bottom: -1.2em;
+}
+.testimonial-container h6 {
+  color: #008CBF;
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .wrapper {
+    font-size: 14px;
+  }
+} 
+
+
