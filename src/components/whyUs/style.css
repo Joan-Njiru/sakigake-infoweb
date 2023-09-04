@@ -33,10 +33,10 @@
 
 }
 .main-heading{
-    font-size: 60px;
+    font-size: 50px;
 }
 .headings{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: #008CBF;
 }
@@ -46,10 +46,10 @@
 }
 .section-header hr{
     width: 238px;
-    height: 8px;
+    height: 4px;
     /* flex-shrink: 0; */
     border-radius: 4px;
     background: #008CBF;
-    margin-right: 620px;
-    margin-top: -50px;
+    margin-right: 780px;
+    margin-top: -40px;
 }
