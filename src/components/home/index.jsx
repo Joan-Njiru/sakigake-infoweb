@@ -8,7 +8,7 @@ const Home = () =>{
        <div className="home">
         <div className="home-div">
             <div className="h-div-1">
-                <h1 className="welcome">welcome to mzaziConnect</h1>
+                <h1 className="welcome">Welcome to MzaziConnect</h1>
                 <h1 className="journey">
                     A new way to stay engaged in your
                     <br/> 
