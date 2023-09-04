@@ -1,6 +1,6 @@
 export const testimonials = [
     {
-      name: "Mr James Kimami",
+      name: "Mr James Kimamo",
       job: "Orthopedic Surgeon",
       img: '/images/james.png',
       testimonial:

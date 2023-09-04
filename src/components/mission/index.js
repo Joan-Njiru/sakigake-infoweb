@@ -22,7 +22,7 @@ function Mission(){
         <div id="circle">
             </div>
             <div id="circle2">
-            </div>
+            </div>swap');
             
         <div>
             <h1>MzaziConnect is your partner in ensuring every child's success</h1>
