@@ -1,12 +1,18 @@
 
 import './App.css';
-import Blue from './Blue';
+import Mission from './components/Mission';
+import Footer from './components/footer';
+import Navbar from './components/navbar';
 
 
 function App() {
   return (
     <div>
-     <Blue/>
+    <Navbar/>
+    <Mission/>
+    <Footer/>
+  
+   
     </div>
   );
 }

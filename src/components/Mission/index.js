@@ -16,7 +16,7 @@ let info =[
 ]
 
 
-function Blue(){
+function Mission(){
     return(
     <section>
         <div id="circle">
@@ -46,4 +46,4 @@ function Blue(){
     );
 }
 
-export default Blue
+export default Mission;
