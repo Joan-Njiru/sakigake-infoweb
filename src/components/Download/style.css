@@ -1,0 +1,52 @@
+.main{
+background-color: rgb(202, 246, 232);
+display: flex;
+font-size:30px;
+}
+
+.words{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.playstore{
+    width: 200px;
+    height: 70px;
+}
+
+.blue{
+    color: rgb(0, 170, 255);
+}
+
+.pic {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .pic img {
+    max-width: 100%;
+    height: auto;
+  }
+
+@media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      align-items: center;
+      font-size: 24px;
+    }
+  
+    .words {
+      margin: 50px 0;
+      text-align: center;
+    }
+  
+    .playstore {
+      width: 150px;
+      height: 50px;
+    }
+  
+    .pic {
+        margin: 20px 0;
+      }
+  }

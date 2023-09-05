@@ -14,23 +14,106 @@ font-family: Jost;
 /* ---------------- styling ------------- */
 .Home{
     background-image:
-    linear-gradient(rgba(255, 255, 255, 0.740), rgba(255, 255, 255, 0.740)),
+    linear-gradient(rgba(255, 255, 255, 0.700), rgba(255, 255, 255, 0.700)),
     url('/public/images/background.jpg');
-    height: 700px;
+    height: 725px;
     background-size: cover;
 }
 .home-div{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 5em;
-    padding-top: 10em;
+    padding: 0 5em;
+    padding-top: 6em;
 }
 
-@media only screen and (max-width:1245px){
+@media only screen and (max-width:1250px){
     .child-bg{
-        height: 100px;
-        width: 100px;
+        height: 450px !important;
+        width: 450px !important;
     }
+
+    .child-bg{
+        margin-right: 0 !important;
+    }
+
+    .h-div-1 h1{
+        font-size: 2.05em !important;
+    }
+}
+
+@media only screen and (max-width:1243px){
+    .child-bg{
+        height: 430px !important;
+        width: 430px !important;
+    }
+    .h-div-1 h1{
+        font-size: 2em !important;
+    }
+}
+
+@media only screen and (max-width:1216px){
+    .child-bg{
+        height: 420px !important;
+        width: 420px !important;
+    }
+    .h-div-1 h1{
+        font-size: 1.9em !important;
+    }
+}
+
+@media only screen and (max-width:1163px){
+    .child-bg{
+        height: 400px !important;
+        width: 400px !important;
+    }
+    .h-div-1 h1{
+        font-size: 1.8em !important;
+    }
+
+    .home p{
+        font-size: 1em !important;
+    }
+}
+
+@media only screen and (max-width:1110px){
+    .child-bg{
+        height: 380px !important;
+        width: 380px !important;
+    }
+    .h-div-1 h1{
+        font-size: 1.6em !important;
+    }
+
+}
+@media only screen and (max-width:1000px){
+    .child-bg{
+        height: 350px !important;
+        width: 350px !important;
+    }
+    .h-div-1 h1{
+        font-size: 1.5em !important;
+    }
+}
+
+@media only screen and (max-width:861px){
+    .child-bg{
+        height: 300px !important;
+        width: 300px !important;
+    }
+    .h-div-1 h1{
+        font-size: 1.2em !important;
+    }
+
+    .home-div{
+        padding: 0 3em;
+        padding-top: 4em;
+    }
+
+    .home p{
+        font-size: .9em !important;
+    }
+    
+    
 }
 
 
@@ -38,30 +121,93 @@ font-family: Jost;
     .home-div{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        padding: 2em;
-        padding-top: 10em;
+    }
+    .child-bg{
+        float: none !important;
+    }
+
+    .home-div{
+        padding: 0 5em !important;
+        padding-top: 5em !important;
+        justify-content: center !important;
+    }
+
+    .child-bg{
+        height: 450px !important;
+        width: 450px !important;
+    }
+    .h-div-1 h1{
+        font-size: 1.8em !important;
+    } 
+}
+
+@media only screen and (max-width:492px){
+    .child-bg{
+        height: 300px !important;
+        width: 300px !important;
+    }
+    .h-div-1 h1{
+        font-size: 1.5em !important;
+    }
+
+    .home-div{
+        padding: 0 2em !important;
+        padding-top: 4em !important;
+    }
+
+    .home p{
+        font-size: 1em !important;
     }
 }
+
+@media only screen and (max-width:327px){
+    .child-bg{
+        height: 250px !important;
+        width: 250px !important;
+    }
+    .h-div-1 h1{
+        font-size: 1.3em !important;
+    }
+
+    .home-div{
+        padding: 0 3em !important;
+        padding-top: 3em !important;
+    }
+
+    .home p{
+        font-size: .8em !important;
+    }
+}
+
+
+
+
+
 
 
 .home-div h1{
     font-family: 'Baloo Bhai 2', cursive;
 }
 
+.h-div-1 h1{
+    font-size: 2.2em;
+}
+
 .home .welcome{
-    font-size: 2.5em;
-    margin-bottom: -.8em;
-    font-weight: 600;
+    margin-bottom: -.3em;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 .home .journey{
     color: #008CBF;
     font-weight: bolder;
-    font-size: 2.7em;
-    line-height: 1.33;
+    line-height: 1.3;
+    letter-spacing: .02em;
+    text-transform: capitalize;
 }
 
 .home p{
-    font-size: 1.2em;
+    font-size: 1.15em;
     font-family: Jost;
     color: #484848;
     padding-top: 1.7em;
@@ -79,18 +225,23 @@ font-family: Jost;
     text-align: center !important;
     justify-content: center !important;
 }
-
+.child-bg{
+    float: right;
+    margin-right: 4em;
+}
 .child-bg{
     position: relative;
     background-image:
-    url('/public/images/bg1.svg');
+    url('/public/images/bg2.svg');
     height: 500px;
     width: 500px;
     background-size: cover;
-    margin-left: 10em;
 }
+
 .child-bg img{
+    margin-top: -16em;
+    margin-left: -9em;
+    width: 47em;
+    object-fit: contain;
     border-radius: 100%;
-    width: 120%;
-    padding-left: -10em;
 }

@@ -1,10 +1,12 @@
 
 import React from "react";
 import './style.css'
+import Navbar from "../navbar";
 
 const Home = () =>{
     return(
         <div className="Home">
+            <Navbar/>
        <div className="home">
         <div className="home-div">
             <div className="h-div-1">
