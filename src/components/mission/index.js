@@ -22,9 +22,9 @@ function Mission(){
         <div id="circle">
             </div>
             <div id="circle2">
-            </div>;
+            </div>
             
-        <div>
+        <div id="mission-header">
             <h1>MzaziConnect is your partner in ensuring every child's success</h1>
            <p>Our mission is to create an inclusive education system where schools,teachers and parents collaborate for students' success</p> 
         </div>
