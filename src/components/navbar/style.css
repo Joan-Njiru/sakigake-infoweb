@@ -65,7 +65,7 @@
 }
 
 @media (max-width: 700px) {
-
+ 
   .Navbar > .nav-items > a:hover {
     color: #fff;
   }
@@ -84,7 +84,7 @@
     flex-direction: column;
     background: #008CBF;
     left: 0;
-    width: 100%;
+    width: 20%;
     height: 50%;
     transform: translateX(-100%);
     /* transition: all .45s; */
