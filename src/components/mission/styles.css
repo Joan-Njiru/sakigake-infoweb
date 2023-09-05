@@ -1,164 +1,191 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Jost&family=Nunito:wght@300;400&display=swap');
-#mission-section{
+
+#mission-section {
     width: 100%;
-    margin: 0;
+    margin-top: 15%;
+  
     display: grid;
     grid-template-columns: repeat(1 1fr);
     background-color: #008CBF;
     font-family: 'Baloo Bhai 2', cursive;
-    color: white;   
+    color: white;
 }
-#mission-header h1{
+
+#mission-header h1 {
     font-size: 40px;
 }
-#mission-header p{
+
+#mission-header p {
     font-size: 22px;
 }
-#mission-header{
-text-align: center;
-margin-top: -15%;
+
+#mission-header {
+    text-align: center;
+    margin-top: -15%;
 }
+
 #bottom {
     width: 100%;
+    margin-bottom: 8%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 #blueContainer {
-    width: 16%;
+    width: 20%;
     height: 350px;
-    margin: 4%;
+    margin: 2%;
     border-radius: 10px;
     background-color: white;
     color: black;
     padding: 60px 30px;
-    
-}
-#blueContainer h2 p{
-font-family: jost;
+    padding-bottom: 40px;
 
 
 }
-#icon{
-    margin-right: 80%;
+
+#blueContainer p {
+    font-family:'Jost',san ;
+    line-height: 1.8;
+
+}
+
+#icon {
+    margin-right: 40%;
     font-size: 35px;
     color: #008CBF;
     border-radius: 50%;
     background: #E4F5FF;
     padding: 10px 20px;
-      
+
 }
-#circle{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%; 
-        background-color: transparent; 
-        border: 1px solid white; 
-        transform: translate(-10%,-40%);
-        /* margin-top: -40px;
-        margin-left: -20px; */
-}
-#circle2{
+
+#circle {
     width: 200px;
     height: 200px;
-    border-radius: 50%; 
-    background-color: transparent; 
-    border: 1px solid white; 
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    transform: translate(-10%, -40%);
+    /* margin-top: -40px;
+        margin-left: -20px; */
+}
+
+#circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
     transform: translate(-40%, -105%);
     /* margin-top: -200px;
     margin-left: -80px; */
 }
 
 @media screen and (max-width: 767px) {
-    #mission-section{
-        margin-top: 40%;
+    #mission-section {
+        margin-top: 50%;
         width: 100%;
 
     }
 
-    #mission-header h1{
+    #mission-header h1 {
         font-size: 25px;
     }
-    #mission-header p{
+
+    #mission-header p {
         font-size: 12px;
-      
+
     }
-    #bottom{
+
+    #bottom {
         display: grid;
         grid-template-columns: repeat(1 1fr);
     }
-    #blueContainer{
+
+    #blueContainer {
         width: 78%;
         height: 250px;
         margin: 10px 15px;
         margin-left: 16px;
     }
-    #blueContainer h2{
+
+    #blueContainer h2 {
         font-size: 20px;
 
     }
-    #icon{
+
+    #icon {
         font-size: 20px;
         padding: 8px 15px;
         margin-left: 40%;
     }
-    #circle{
+
+    #circle {
         width: 80px;
         height: 80px;
     }
-    #circle2{
+
+    #circle2 {
         width: 80px;
         height: 80px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    #mission-section{
+    #mission-section {
         width: 100%;
         padding: 10px;
         margin: 0;
     }
-    #mission-header{
+
+    #mission-header {
         width: 90%;
     }
-    #mission-header h1{
+
+    #mission-header h1 {
         font-size: 20px;
     }
-    #mission-header p{
+
+    #mission-header p {
         font-size: 12px;
     }
-    #bottom{
+
+    #bottom {
         display: grid;
         grid-template-columns: repeat(1 1fr);
         gap: 10px;
     }
-    #blueContainer{
+
+    #blueContainer {
         width: 80%;
         padding: 15px 30px;
         margin: 10px;
-        
+
     }
-    #blueContainer h2{
+
+    #blueContainer h2 {
         font-size: 25px;
 
     }
-    #icon{
+
+    #icon {
         font-size: 25px;
         padding: 8px 15px;
         margin: 0;
     }
-    #circle{
+
+    #circle {
         width: 100px;
         height: 100px;
     }
-    #circle2{
+
+    #circle2 {
         width: 100px;
         height: 100px;
     }
 
 }
-   
-

@@ -84,7 +84,7 @@
     flex-direction: column;
     background: #008CBF;
     left: 0;
-    width: 20%;
+    width: 100%;
     height: 50%;
     transform: translateX(-100%);
     /* transition: all .45s; */

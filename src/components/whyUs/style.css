@@ -3,6 +3,8 @@
 .section-container{
     width: 100%;
     font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 7em;
+    margin-bottom: 10em;
 }
 .section-header{
     width: 100%;
@@ -33,9 +35,30 @@
     font-family: jost;
 
 }
+/* .main-heading{
+    letter-spacing: .08em;
+    font-weight: bolder;
+    font-family: 'Baloo Bhai 2', cursive;
+} */
+
 .main-heading{
-    font-size: 50px;
-}
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom: 5em;
+   }
+   .main-heading::after{
+    content: '';
+    background: #008CBF;
+    display: block;
+    height: .13em;
+    width: 4.5em;
+    margin: 15px auto 8px;
+    border-radius: 2px;
+   }
+
+
 .headings{
     font-size: 40px;
     font-weight: 600;
@@ -67,29 +90,22 @@
     .image-container img{
         width: 320px;
         height: 320px;
-      
+        margin-left: 10%;
     }
-    hr{
-        display: none;
-    }
-    .content-container{
-
-        text-align: center;
-    }
-    .content-container h2{
+    .content-container h2 {
         font-size:25px;
         text-align: start;
-        margin-left: 5%;
-    }
-    .contents-paragraph{
-        text-align: center;
+        margin-left: 10%;
+        padding: 0;
     }
     .content-container p{
-        font-size: 20px;
+        font-size: 18px;
         text-align: start;
-        margin-left: 5%;
+        margin-left: 10%;
+        
     }
     br{
         display: none;
     }
+    
 }
