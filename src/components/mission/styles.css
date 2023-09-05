@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Jost&family=Nunito:wght@300;400&display=swap');
 #mission-section{
+    width: 100%;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(1 1fr);
@@ -17,6 +18,7 @@
 }
 #mission-header{
 text-align: center;
+margin-top: -15%;
 }
 #bottom {
     width: 100%;
@@ -37,9 +39,7 @@ text-align: center;
 }
 #blueContainer h2 p{
 font-family: jost;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+
 
 }
 #icon{
@@ -72,11 +72,86 @@ align-items: flex-start;
     margin-left: -80px; */
 }
 
+@media screen and (max-width: 767px) {
 
-@media (max-width: 768px) {
-    #blueContainer {
-        width: 90%; 
-        margin: 4% auto; 
+    #mission-header h1{
+        font-size: 25px;
+    }
+    #mission-header p{
+        font-size: 12px;
+      
+    }
+    #bottom{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+    #blueContainer{
+        width: 75%;
+        margin: 10px 15px;
+    }
+    #blueContainer h2{
+        font-size: 20px;
+
+    }
+    #icon{
+        font-size: 25px;
+        padding: 8px 15px;
+        margin: 0;
+    }
+    #circle{
+        width: 80px;
+        height: 80px;
+    }
+    #circle2{
+        width: 80px;
+        height: 80px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #mission-section{
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    #mission-header{
+        width: 90%;
+    }
+    #mission-header h1{
+        font-size: 20px;
+    }
+    #mission-header p{
+        font-size: 12px;
+    }
+    #bottom{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        gap: 10px;
+    }
+    #blueContainer{
+        width: 80%;
+        padding: 15px 30px;
+        margin: 10px;
+        
+    }
+    #blueContainer h2{
+        font-size: 25px;
+
+    }
+    #icon{
+        font-size: 25px;
+        padding: 8px 15px;
+        margin: 0;
+    }
+    #circle{
+        width: 100px;
+        height: 100px;
+    }
+    #circle2{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+   
 
