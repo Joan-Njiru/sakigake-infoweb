@@ -7,7 +7,6 @@ const Home = () =>{
     return(
         <div className="Home">
             <Navbar/>
-       <div className="home">
         <div className="home-div">
             <div className="h-div-1">
                 <h1 className="welcome">Welcome to MzaziConnect</h1>
@@ -30,16 +29,12 @@ const Home = () =>{
 
             </div>
             <div className="h-div-2">
-                <div className="h-div-child">
                     <div className="child-bg">
                     {/* <img src="./images/child.png" alt="" /> */}
-                    </div>
-                </div>
-                
+                    </div>  
             </div>
         </div>
        </div>
-        </div>
     )
 }
 

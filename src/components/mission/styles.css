@@ -73,6 +73,11 @@ font-family: jost;
 }
 
 @media screen and (max-width: 767px) {
+    #mission-section{
+        margin-top: 40%;
+        width: 100%;
+
+    }
 
     #mission-header h1{
         font-size: 25px;
@@ -86,17 +91,19 @@ font-family: jost;
         grid-template-columns: repeat(1 1fr);
     }
     #blueContainer{
-        width: 75%;
+        width: 78%;
+        height: 250px;
         margin: 10px 15px;
+        margin-left: 16px;
     }
     #blueContainer h2{
         font-size: 20px;
 
     }
     #icon{
-        font-size: 25px;
+        font-size: 20px;
         padding: 8px 15px;
-        margin: 0;
+        margin-left: 40%;
     }
     #circle{
         width: 80px;

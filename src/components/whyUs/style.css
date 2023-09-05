@@ -54,3 +54,42 @@
     margin-right: 780px;
     margin-top: -40px;
 }
+
+@media screen and (max-width: 767px){
+    .section-header .main-heading{
+        font-size: 30px;
+        font-weight: 300px;
+    }
+    .contents{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .image-container img{
+        width: 320px;
+        height: 320px;
+      
+    }
+    hr{
+        display: none;
+    }
+    .content-container{
+
+        text-align: center;
+    }
+    .content-container h2{
+        font-size:25px;
+        text-align: start;
+        margin-left: 5%;
+    }
+    .contents-paragraph{
+        text-align: center;
+    }
+    .content-container p{
+        font-size: 20px;
+        text-align: start;
+        margin-left: 5%;
+    }
+    br{
+        display: none;
+    }
+}
